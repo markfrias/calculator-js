@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h1 id="title">Simple Calculator</h1>
+    <div id="calculator-box">
+        <form action="" onsubmit="validateForm">
+            <input type="text" name="field" id="field">
+            <p id="result">Result: </p>
+            <div id="primary-operators"> 
+              <button id="addButton" type="button" class="butt">+</button>
+              <button id="subtractButton" type="button" class="butt">-</button>
+              <button id="multiplyButton" type="button" class="butt">*</button>
+              <button id="divideButton" type="button" class="butt">/</button>
+            </div>
+
+            <div id="secondary-operators">
+                <button id="exponentButton" type="button" class="butt">x^2</button>
+                <button id="modulusButton" type="button" class="butt">%</button>
+                <a><button id="equals" type="button" class="butt">=</button></a>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
